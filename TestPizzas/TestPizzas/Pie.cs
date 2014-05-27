@@ -7,12 +7,21 @@ namespace TestPizzas
 {
     class Pie
     {
-        private double Diameter;
-        
-        private string Name;
-        private double Price;
+        private double diameter;
+        private string name;
+        private double price;
 
-        public double diameter
+        public Pie(double Diameter)
+        {
+            this.Diameter = diameter;
+        }
+
+        public Pie(string Name)
+        {
+            this.Name = name;
+        }
+
+        public double Diameter
         {
             get
             {
@@ -25,8 +34,8 @@ namespace TestPizzas
             }
         }
 
-              public double price
-              {
+              public double Price
+          {
             get
             {
                 return price;
@@ -36,9 +45,9 @@ namespace TestPizzas
             {
                 price = value;
             }
-              }
+          }
 
-              public string name
+              public string Name
               {
                   get
                   {

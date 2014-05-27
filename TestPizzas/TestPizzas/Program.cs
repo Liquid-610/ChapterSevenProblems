@@ -9,18 +9,18 @@ namespace TestPizzas
     {
         static void Main(string[] args)
         {
-            Pie pizza = new Pie();
+            Pie pizza = new Pie(12);
 
-            double d = pizza.diameter;
-            double p = pizza.price;
+            double d = pizza.Diameter;
+            double p = pizza.Price;
 
-            pizza.price = 13.99;
-            pizza.diameter = 12;
-            pizza.name = "Pepperoni";
+            pizza.Price = 13.99;
+            pizza.Diameter = 12;
+            pizza.Name = "Pepperoni";
 
-            Console.WriteLine("{0}in",pizza.diameter);
-            Console.WriteLine(pizza.name);
-            Console.WriteLine(pizza.price);
+            Console.WriteLine("{0}in",pizza.Diameter);
+            Console.WriteLine(pizza.Name);
+            Console.WriteLine(pizza.Price);
 
         }
     }
