@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPizzas", "TestPizzas\TestPizzas.csproj", "{BE76F6A3-F7B5-4F95-8E60-C55A0874C9F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayHousePlants", "HousePlant\DisplayHousePlants.csproj", "{075ACF2C-A3B5-42DD-A9C9-4B6AFED2A59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSquares", "DemoSquares\DemoSquares.csproj", "{0A18CAC9-6BBE-4D03-8E12-A95490F08DE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +17,14 @@ Global
 		{BE76F6A3-F7B5-4F95-8E60-C55A0874C9F5}.Debug|x86.Build.0 = Debug|x86
 		{BE76F6A3-F7B5-4F95-8E60-C55A0874C9F5}.Release|x86.ActiveCfg = Release|x86
 		{BE76F6A3-F7B5-4F95-8E60-C55A0874C9F5}.Release|x86.Build.0 = Release|x86
+		{075ACF2C-A3B5-42DD-A9C9-4B6AFED2A59E}.Debug|x86.ActiveCfg = Debug|x86
+		{075ACF2C-A3B5-42DD-A9C9-4B6AFED2A59E}.Debug|x86.Build.0 = Debug|x86
+		{075ACF2C-A3B5-42DD-A9C9-4B6AFED2A59E}.Release|x86.ActiveCfg = Release|x86
+		{075ACF2C-A3B5-42DD-A9C9-4B6AFED2A59E}.Release|x86.Build.0 = Release|x86
+		{0A18CAC9-6BBE-4D03-8E12-A95490F08DE6}.Debug|x86.ActiveCfg = Debug|x86
+		{0A18CAC9-6BBE-4D03-8E12-A95490F08DE6}.Debug|x86.Build.0 = Debug|x86
+		{0A18CAC9-6BBE-4D03-8E12-A95490F08DE6}.Release|x86.ActiveCfg = Release|x86
+		{0A18CAC9-6BBE-4D03-8E12-A95490F08DE6}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

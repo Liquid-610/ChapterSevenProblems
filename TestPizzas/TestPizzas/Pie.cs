@@ -25,7 +25,7 @@ namespace TestPizzas
         {
             get
             {
-                return diameter;
+                return diameter = 12;
             }
 
             set
@@ -38,7 +38,7 @@ namespace TestPizzas
           {
             get
             {
-                return price;
+                return price = 13.99;
             }
 
             set 
